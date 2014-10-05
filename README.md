@@ -19,7 +19,7 @@ Usage
 - out (check out)
 - ppl (guests)
 
-Dates are in the format of MM/DD/YYYY with standard URL encoding (2F = /)
+Dates are in the format of MM/DD/YYYY with standard [URL encoding](http://www.w3schools.com/tags/ref_urlencode.asp) where `%2F = /`
 
 **Output:** JSON
 
