@@ -18,6 +18,7 @@ Usage
 - out (check out)
 - ppl (guests)
 Dates are in the format of MM&DD&YY
+
 **Output:** JSON
 
 ### Search for acco
