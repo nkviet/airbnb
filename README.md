@@ -17,6 +17,7 @@ Usage
 - in (check in)
 - out (check out)
 - ppl (guests)
+
 Dates are in the format of MM&DD&YY
 
 **Output:** JSON
