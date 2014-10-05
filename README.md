@@ -23,7 +23,6 @@ Dates are in the format of MM&DD&YY
 
 **Output:** JSON
 
-### Search for acco
 #### `GET /search`
 
 Example Query:
