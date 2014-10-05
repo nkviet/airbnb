@@ -12,6 +12,7 @@ Usage
 =====
 
 **Base URL:** http://airbnb-api-tm.herokuapp.com/
+
 **Parameters:**
 - loc (location)
 - in (check in)
