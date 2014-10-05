@@ -8,4 +8,45 @@ Airbnb REST API (Unofficial)
 
 *Note: This is an unofficial API and not supported or controlled by Airbnb itself. Any questions, comments, feedback or feature requests should be directed to [@tejas-manohar](https://github.com/tejas-manohar) or via an [issue](https://github.com/tejas-manohar/airbnb/issues/new) in this repo.*
 
+Usage
+=====
 
+**Base URL:** http://airbnb-api-tm.herokuapp.com/
+**Output:** JSON
+
+### Search for acco
+#### `GET /search`
+
+Example Query:
+
+```
+http://airbnb-api-tm.herokuapp.com/search?
+```
+
+Response:
+
+```json
+{
+  "status": "success",
+  "accomodations": [
+    {
+      "permalink": "/rooms/3571396",
+      "title": "Cozy Private Room off Charlotte !!!",
+      "description": "Grace Cottage is a wonderful 1920s home situated in the beautiful town of Washington,     Arkansas.The home comfortably fits four and is located next to Historic Washington State Park. Enjoy a relaxing and restful weekend in the community of Washington.",
+      "image": "https://a1.muscache.com/pictures/51710849/large.jpg",
+      "visibility": "private room",
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 1,
+      "reviews": {
+        "count": 11,
+        "stars": 5
+      },
+      "user": {
+        "firstName": "Laurence",
+        "userId": "17981042"
+      },
+    },
+    ...
+    ...
+```
