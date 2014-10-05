@@ -19,7 +19,7 @@ Usage
 - out (check out)
 - ppl (guests)
 
-Dates are in the format of MM&DD&YY
+Dates are in the format of MM/DD/YYYY with standard URL encoding (2F = /)
 
 **Output:** JSON
 
@@ -28,7 +28,7 @@ Dates are in the format of MM&DD&YY
 Example Query:
 
 ```
-http://airbnb-api-tm.herokuapp.com/search?loc=nashville&in=10%09%14&out=10%12%2014&ppl=2
+http://airbnb-api-tm.herokuapp.com/search?loc=nashville&in=10%2F14%2F2014&out=10%2F15%2F2014&ppl=2
 ```
 
 Response:
